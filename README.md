@@ -46,7 +46,3 @@ Welcome to the CouponAPI! This API provides access to a variety of coupon offers
 #### Input Schema
 
 - `category`: Category to filter offers by. (Required)
-
-## Conclusion
-
-The CouponAPI provides a flexible and efficient way to access coupon offers. Whether you're looking for incremental updates, specific offer details, or offers filtered by store or category, our API has you covered. For more information on how to use these endpoints, please refer to the individual tool descriptions above.
