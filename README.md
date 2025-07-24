@@ -6,7 +6,7 @@ Welcome to the CouponAPI! This API provides access to a variety of coupon offers
 
 ## Tools Overview
 
-### 1. Get Incremental Feed
+### 1. get_incremental_feed
 
 - **Name**: `get_incremental_feed`
 - **Description**: Retrieve an incremental feed of coupon offers from CouponAPI.org. This endpoint returns new, updated, and suspended offers since the last extract time. If no `last_extract` is provided, it returns all currently active offers. Set `off_record=True` to avoid updating the last extract time in the system.
@@ -20,7 +20,7 @@ Welcome to the CouponAPI! This API provides access to a variety of coupon offers
 - `category`: Filter by category. Optional parameter.
 - `off_record`: When True, does not update the last extract time, allowing repeated retrieval of incremental data. Defaults to False.
 
-### 2. Get Offer Details
+### 2. get_offer_details
 
 - **Name**: `get_offer_details`
 - **Description**: Retrieve detailed information for a specific offer. This tool filters the incremental feed to return details for a specific offer ID.
@@ -29,7 +29,7 @@ Welcome to the CouponAPI! This API provides access to a variety of coupon offers
 
 - `offer_id`: The unique offer ID to get details for. (Required)
 
-### 3. Get Offers by Store
+### 3. get_offers_by_store
 
 - **Name**: `get_offers_by_store`
 - **Description**: Retrieve all offers for a specific store. This endpoint returns all current offers for the specified store name.
@@ -38,7 +38,7 @@ Welcome to the CouponAPI! This API provides access to a variety of coupon offers
 
 - `store_name`: Store name to filter offers by. (Required)
 
-### 4. Get Offers by Category
+### 4. get_offers_by_category
 
 - **Name**: `get_offers_by_category`
 - **Description**: Retrieve all offers for a specific category. This endpoint returns all current offers for the specified category.
