@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the CouponAPI! This API provides access to a variety of coupon offers, allowing users to retrieve, filter, and obtain detailed information about current promotions. With our API, you can easily access incremental feeds of coupon offers, get details for specific offers, and filter offers by store or category. This documentation outlines the available endpoints and their functionalities.
+Welcome to the CouponAPI! This MCP provides access to a variety of coupon offers, allowing users to retrieve, filter, and obtain detailed information about current promotions. With our API, you can easily access incremental feeds of coupon offers, get details for specific offers, and filter offers by store or category. This documentation outlines the available endpoints and their functionalities.
 
 ## Tools Overview
 
